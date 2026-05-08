@@ -1,5 +1,3 @@
-# 🛡️ SENTINEL GRAPH
-
 ## ⚡ AI-Driven Multi-Agent System for Real-Time Cyber Threat Detection
 
 <div align="center">
