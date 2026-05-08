@@ -1,14 +1,20 @@
-## ⚡ AI-Driven Multi-Agent System for Real-Time Cyber Threat Detection
-
+````md id="6lj0z0"
 <div align="center">
 
-![CyberSecurity](https://img.shields.io/badge/CyberSecurity-AI%20Driven-red?style=for-the-badge)
-![n8n](https://img.shields.io/badge/Automation-n8n-orange?style=for-the-badge)
-![LangGraph](https://img.shields.io/badge/Framework-LangGraph-blue?style=for-the-badge)
-![Agents](https://img.shields.io/badge/Multi-Agent%20System-green?style=for-the-badge)
-![RealTime](https://img.shields.io/badge/Monitoring-RealTime-purple?style=for-the-badge)
+# 🛡️ SENTINEL GRAPH
+## ⚡ AI-Driven Multi-Agent System for Cyber Threat Detection
 
-# 🚨 Intelligent Threat Correlation • Autonomous Agents • Real-Time Defense
+<img src="https://img.shields.io/badge/CyberSecurity-AI%20Driven-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/n8n-Automation-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-Stateful%20Agents-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Multi-Agent-System-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RealTime-Threat%20Detection-purple?style=for-the-badge"/>
+
+### 🚨 Intelligent Threat Correlation • Autonomous Agents • Real-Time Defense
+
+---
+
+### 🧠 Detect • Correlate • Analyze • Respond
 
 </div>
 
@@ -16,52 +22,51 @@
 
 # 🌌 PROJECT OVERVIEW
 
-Modern cyber attacks are no longer isolated events.
+Modern cyber attacks are no longer isolated incidents.
 
-A single attack can move through:
+A single attack can spread through:
+- 🌐 Networks
+- 💻 Systems
+- 📱 Applications
+- 🔐 Authentication Services
+- 📂 Sensitive Resources
 
-* 🌐 Network Infrastructure
-* 💻 Host Systems
-* 📱 Applications
-* 🔐 Authentication Layers
-* 📂 Sensitive Resources
+Traditional monitoring systems analyze logs separately, making it difficult to identify coordinated cyber attacks.
 
-Traditional SIEM systems often analyze these logs separately.
-As a result:
-
-❌ Threats remain hidden
-❌ Detection becomes slow
-❌ Alerts become noisy
-❌ Security teams become overloaded
+This leads to:
+- ❌ Delayed detection
+- ❌ High alert noise
+- ❌ Missed attack patterns
+- ❌ Increased manual monitoring effort
 
 ---
 
 # 💡 THE SOLUTION
 
-## Sentinel Graph
+## 🛡️ Sentinel Graph
 
-An AI-powered, stateful, multi-agent cybersecurity platform that:
+Sentinel Graph is an **AI-powered multi-agent cybersecurity platform** that:
 
-✅ Monitors multiple log sources simultaneously
-✅ Correlates suspicious events in real time
-✅ Uses AI agents for intelligent analysis
-✅ Detects coordinated cyber attacks
-✅ Automates alerting and response workflows
+✅ Monitors multiple log sources simultaneously  
+✅ Correlates suspicious events in real time  
+✅ Uses intelligent AI agents for analysis  
+✅ Detects coordinated cyber attacks  
+✅ Automates alerts and response workflows  
 
 ---
 
 # ⚡ CORE TECHNOLOGIES
 
-| Technology          | Purpose                                   |
-| ------------------- | ----------------------------------------- |
-| n8n                 | Workflow Automation & Agent Orchestration |
-| LangGraph           | Stateful Multi-Agent Execution            |
-| LangSmith           | Observability & Agent Tracing             |
-| Suricata IDS        | Network Threat Monitoring                 |
-| Docker              | Sandboxed Response Execution              |
-| SQLite / PostgreSQL | Persistent State Storage                  |
-| Scikit-learn        | AI Threat Detection                       |
-| Python              | Agent & ML Logic                          |
+| Technology | Purpose |
+|---|---|
+| 🔶 n8n | Workflow Automation & Agent Orchestration |
+| 🧠 LangGraph | Stateful Multi-Agent Execution |
+| 🔍 LangSmith | Agent Observability & Tracing |
+| 🌐 Suricata IDS | Network Threat Monitoring |
+| 🐳 Docker | Sandboxed Response Execution |
+| 🗄️ SQLite / PostgreSQL | Persistent State Storage |
+| 🤖 Scikit-learn | AI Threat Detection |
+| 🐍 Python | ML & Agent Logic |
 
 ---
 
@@ -69,14 +74,13 @@ An AI-powered, stateful, multi-agent cybersecurity platform that:
 
 ## “Multiple Intelligent Agents Working Together as One Cyber Defense Brain.”
 
-Instead of one monolithic security system, Sentinel Graph uses specialized autonomous agents.
+Instead of a monolithic security system, Sentinel Graph uses specialized autonomous agents.
 
 Each agent:
-
-* Monitors one security domain
-* Makes independent decisions
-* Shares intelligence with other agents
-* Collaborates to identify hidden attack patterns
+- Monitors one security domain
+- Makes independent decisions
+- Shares intelligence with other agents
+- Collaborates to detect hidden threats
 
 ---
 
@@ -134,11 +138,13 @@ Each agent:
              │ ⚡ n8n Workflows                   │
              │ 🚫 Containment Actions             │
              └────────────────────────────────────┘
-```
+````
 
 ---
 
 # 🤖 MULTI-AGENT SYSTEM
+
+---
 
 ## 🌐 Network Agent
 
@@ -146,7 +152,7 @@ Responsible for:
 
 * Detecting port scans
 * Monitoring malicious IPs
-* Identifying traffic anomalies
+* Identifying abnormal traffic
 * Detecting suspicious packets
 
 ---
@@ -213,13 +219,13 @@ Automatically:
 
 # 🔥 WHY n8n?
 
-Unlike traditional cybersecurity systems that require heavy backend coding, Sentinel Graph uses:
+Unlike traditional cybersecurity systems that rely heavily on backend coding, Sentinel Graph uses:
 
 # ⚡ n8n Workflow Automation
 
 This enables:
 
-✅ Visual agent orchestration
+✅ Visual workflow orchestration
 ✅ Real-time event pipelines
 ✅ Automated workflow execution
 ✅ API integrations
@@ -230,7 +236,7 @@ This enables:
 
 # 🧩 LANGGRAPH STATEFUL ORCHESTRATION
 
-LangGraph acts as the system’s “brain.”
+LangGraph acts as the system’s intelligent orchestration brain.
 
 ---
 
@@ -263,9 +269,7 @@ Examples:
 
 ## 🔹 EDGES
 
-Edges define routing logic.
-
-Example:
+Edges define workflow routing logic.
 
 ```text
 Benign Event → Ignore
@@ -277,7 +281,7 @@ Critical Threat → Response Agent
 
 # 🔗 EVENT CORRELATION ENGINE
 
-The platform correlates suspicious events from multiple sources.
+The platform correlates suspicious activities from multiple sources.
 
 ## Example Attack Flow
 
@@ -303,13 +307,13 @@ The AI engine performs:
 ✅ Risk Scoring
 ✅ Anomaly Detection
 ✅ Pattern Recognition
-✅ Behavior Analysis
+✅ Behavioral Analysis
 
 ---
 
 # 📡 REAL-TIME VISUALIZATION
 
-## LangGraph Studio Frontend
+## 🖥️ LangGraph Studio Frontend
 
 Sentinel Graph includes an interactive frontend where:
 
@@ -341,14 +345,16 @@ Developers can:
 
 # 🛡️ SECURITY & SAFETY
 
+---
+
 ## 🐳 Sandboxed Execution
 
 Automated response actions run inside Docker containers.
 
 This prevents:
 
-* Host system damage
 * Unsafe automation
+* Host system damage
 * Accidental containment errors
 
 ---
@@ -372,7 +378,7 @@ Using:
 
 Integrated with:
 
-# LangSmith
+# 🔍 LangSmith
 
 Provides:
 
@@ -387,10 +393,10 @@ Provides:
 
 | Threat Level | Automated Response           |
 | ------------ | ---------------------------- |
-| Low          | Log Event                    |
-| Medium       | Alert Security Team          |
-| High         | Trigger n8n Workflow         |
-| Critical     | Human Approval + Containment |
+| 🟢 Low       | Log Event                    |
+| 🟡 Medium    | Alert Security Team          |
+| 🔴 High      | Trigger n8n Workflow         |
+| 🚨 Critical  | Human Approval + Containment |
 
 ---
 
@@ -474,6 +480,8 @@ Sentinel Graph can detect:
 
 # ☁️ DEPLOYMENT OPTIONS
 
+---
+
 ## 🖥️ Self Hosting
 
 Deploy using:
@@ -517,9 +525,11 @@ Supports:
 | Pooja Prakash | 1SI23AD036 |
 | Divyaprada G  | 1SI24AD401 |
 
+---
 
-## Real-Time AI Cyber Defense Powered by Multi-Agent Intelligence
+# 🎓 INSTITUTION
 
-⚡ Detect • Correlate • Analyze • Respond ⚡
+## Siddaganga Institute of Technology, Tumakuru
 
-</div>
+Department of Artificial Intelligence & Data Science Engineering
+Academic Year: 2025-26
