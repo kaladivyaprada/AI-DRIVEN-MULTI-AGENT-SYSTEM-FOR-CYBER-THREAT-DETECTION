@@ -81,60 +81,8 @@ Each agent:
 ---
 
 # ⚙️ SYSTEM ARCHITECTURE
+<img width="1421" height="947" alt="image" src="https://github.com/user-attachments/assets/593e939a-cd9a-4cfd-a556-a54713ec7fef" />
 
-```text
-                    ┌───────────────────────────┐
-                    │     Log Sources           │
-                    │───────────────────────────│
-                    │ 🌐 Network Logs           │
-                    │ 💻 System Logs            │
-                    │ 📱 Application Logs       │
-                    └────────────┬──────────────┘
-                                 │
-                                 ▼
-                 ┌──────────────────────────────┐
-                 │      Preprocessing Layer     │
-                 │──────────────────────────────│
-                 │ ✔ Cleaning                   │
-                 │ ✔ Normalization              │
-                 │ ✔ Feature Extraction         │
-                 └────────────┬─────────────────┘
-                              │
-                              ▼
-             ┌────────────────────────────────────┐
-             │       Multi-Agent Monitoring       │
-             │────────────────────────────────────│
-             │ 🌐 Network Agent                  │
-             │ 💻 System Agent                   │
-             │ 📱 Application Agent              │
-             └────────────┬──────────────────────┘
-                          │
-                          ▼
-             ┌────────────────────────────────────┐
-             │      Event Correlation Engine      │
-             │────────────────────────────────────│
-             │ Detect Multi-Stage Attacks         │
-             │ Correlate Cross-Source Events      │
-             └────────────┬──────────────────────┘
-                          │
-                          ▼
-             ┌────────────────────────────────────┐
-             │      AI Threat Detection Layer     │
-             │────────────────────────────────────│
-             │ ✔ ML Threat Scoring                │
-             │ ✔ Anomaly Detection                │
-             │ ✔ Risk Classification              │
-             └────────────┬──────────────────────┘
-                          │
-                          ▼
-             ┌────────────────────────────────────┐
-             │   Automated Alert & Response       │
-             │────────────────────────────────────│
-             │ 📧 Email Alerts                    │
-             │ ⚡ n8n Workflows                   │
-             │ 🚫 Containment Actions             │
-             └────────────────────────────────────┘
-```
 
 ---
 
